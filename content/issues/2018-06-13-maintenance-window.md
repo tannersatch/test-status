@@ -5,7 +5,7 @@ resolved: true
 # Possible severity levels: down, disrupted, notice
 severity: notice
 affected:
-  - Webserver
+  - API
 section: issue
 ---
 
