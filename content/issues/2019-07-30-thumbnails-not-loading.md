@@ -1,6 +1,6 @@
 ---
 title: Thumbnails Not Loading
-date: 2018-05-25 04:13:00
+date: 2019-07-30 01:30:00
 resolved: true
 resolvedWhen: 2019-07-30 07:20:00
 # Possible severity levels: down, disrupted, notice
