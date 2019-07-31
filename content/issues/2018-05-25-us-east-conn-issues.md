@@ -4,10 +4,9 @@ date: 2018-05-25 04:13:00
 resolved: true
 resolvedWhen: 2018-05-25 04:13:59
 # Possible severity levels: down, disrupted, notice
-severity: down
+severity: ok
 affected:
-  - API
-  - Media Proxy
+  - Webserver
 section: issue
 ---
 
