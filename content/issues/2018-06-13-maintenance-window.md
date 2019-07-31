@@ -1,9 +1,9 @@
 ---
 title: Maintenance Window
 date: 2018-06-13 15:54:00
-resolved: true
+resolved: false
 # Possible severity levels: down, disrupted, notice
-severity: notice
+severity: disrupted
 affected:
   - API
 section: issue
