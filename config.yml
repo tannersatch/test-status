@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: FileShadow Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -105,11 +105,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-    - name: API
-      description: The guts of the application.
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: File Store
+    - name: Thumbnail Store
+    - name: Metadata Store
+    - name: Webserver
+    - name: Data Processors
+    - name: Ingestion Queue
 
   # What date format to use?
   #
@@ -144,7 +145,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: /logo.png
+  logo: /FileShadowBannerAlpha.png
 
   # This is the description that is shown
   # on the footer and meta tags.
